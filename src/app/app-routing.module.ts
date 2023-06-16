@@ -1,7 +1,17 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
-const routes: Routes = [];
+import {CartComponent} from './component/cart/cart.component';
+import {ProductComponent} from './component/product/product.component';
+import { GraphComponent } from './graph/graph.component';
+import { PaynowComponent } from './paynow/paynow.component';
+import { VideoComponent } from './video/video.component';
+const routes: Routes = [
+  {path:'', redirectTo:'products',pathMatch:'full'},
+  {path:'products', component:ProductComponent},
+  {path:'cart', component:CartComponent},
+  {path:'video',component:VideoComponent},
+  {path:'graph',component:GraphComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

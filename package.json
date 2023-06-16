@@ -18,6 +18,19 @@
     "@angular/platform-browser": "^14.2.0",
     "@angular/platform-browser-dynamic": "^14.2.0",
     "@angular/router": "^14.2.0",
+    "@okta/jwt-verifier": "2.1.0",
+    "@okta/okta-angular": "3.0.1",
+    "@videogular/ngx-videogular": "^6.0.0",
+    "bootstrap": "^5.2.2",
+    "chart.js": "^4.0.1",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "express-bearer-token": "2.4.0",
+    "jspdf": "^2.5.1",
+    "mysql": "2.18.1",
+    "ngx-bootstrap": "^5.1.0",
+    "ngx-timeline": "5.0.0",
+    "pdfmake": "^0.2.6",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
@@ -26,6 +39,7 @@
     "@angular-devkit/build-angular": "^14.2.3",
     "@angular/cli": "~14.2.3",
     "@angular/compiler-cli": "^14.2.0",
+    "@types/core-js": "^2.5.5",
     "@types/jasmine": "~4.0.0",
     "jasmine-core": "~4.3.0",
     "karma": "~6.4.0",
@@ -34,5 +48,9 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "typescript": "~4.7.2"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.",
+  "main": "karma.conf.js",
+  "author": "",
+  "license": "ISC"
 }
